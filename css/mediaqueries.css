@@ -1,0 +1,81 @@
+
+  
+/*extra small*/
+
+@media screen and (max-width: 367px) {
+	
+.btn-circle {
+	margin-top: 110%;
+}	
+
+
+#services h2 {
+	font-size: 24px;
+}
+
+#services h3 {
+	font-size: 18px;
+}
+
+}
+
+/*small*/
+
+@media screen and (min-width: 368px) and (max-width: 800px) {
+
+
+
+#services h2 {
+	font-size: 24px;
+}
+
+#services h3 {
+	font-size: 18px;
+}
+	
+}
+	
+	 
+	
+
+
+/*medium*/
+@media screen and (min-width: 801px) and (max-width: 1199px) {
+
+.btn-circle {
+	margin-top: 64%;
+}
+
+.parallax2 {
+    height: 170%;
+}
+
+} 
+
+
+
+
+/*large*/
+
+@media screen and (min-width: 1200px) {
+
+.btn-circle {
+	margin-top: 70%;
+}
+
+
+.parallax2 {
+    height: 100%;
+}
+
+.service-box {
+	margin-top: 16%;
+}
+
+}
+
+
+
+
+
+
