@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
- <link rel="shortcut icon" href="img/tab-icon.png">
+
+    <link rel="shortcut icon" href="img/tab-icon.png">
     <title>Sara Mae</title>
 
     <!-- Bootstrap Core CSS -->
@@ -21,11 +22,13 @@
 
     <!-- Theme CSS -->
     <link href="css/grayscale.min.css" rel="stylesheet">
-    
-    
-        <link href="css/creative.min.css" rel="stylesheet">
-    
-    
+
+    <!-- overlay -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.css"> -->
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,22 +36,15 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
     <!-- Custom CSS -->
-    <link href="css/custom.css" rel="stylesheet">
-    <link href="css/mediaqueries.css" rel="stylesheet">
-    
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
 
-    <link rel="stylesheet" href="inc/fancybox/jquery.fancybox.css">
-    <link rel="stylesheet" href="inc/gallery.css">
-    
-    
+        <!-- ekko lightbox-->
+    <link rel="stylesheet" href="css/ekko-lightbox.css">
 
 
-    
-    
-    
-    
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -60,7 +56,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a id="logo" class="navbar-brand page-scroll" href="#page-top">
                     <img src="img/logo.png" alt="logo" width="40%" class="img-responsive">
                 </a>
             </div>
@@ -76,7 +72,7 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#skills">Skills</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
@@ -102,6 +98,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
+                    	<img src="img/main_logo.png" class="img-responsive" alt="logo">
                         <!-- <h1 class="brand-heading">Grayscale</h1>
                         <p class="intro-text">A free, responsive, one page Bootstrap theme.
                             <br>Created by Start Bootstrap.</p> -->
@@ -114,8 +111,6 @@
         </div>
     </header>
     </div>
-    
-    
 
     <!-- About Section -->
     <section id="about" class="container content-section">
@@ -132,16 +127,14 @@
       </div>
     </section>
     <!-- about end-->
+    
+    
 
-
-
-<!-- Services Section -->
-
-
-   <section id="services" class="container content-section parallax2">
+<!-- Skills Section -->
+   <section id="skills" class="container content-section parallax2">
         <div class="container">
             <div class="row">
-                    <h2 class="heading">At Your Service</h2>
+                    <h2 class="heading">Skills</h2>
             </div>
         </div>
         <div class="container">
@@ -149,89 +142,56 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-5x text-primary sr-icons fa-paint-brush"></i>
-                        <h3>Artwork</h3>
-                        <p>Aliquam in libero ut sapien semper vehicula et nec dolor.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-5x fa-mobile text-primary sr-icons"></i>
-                        <h3>Responsive Websites</h3>
+                        <h3>Art</h3>
                         <p>Aliquam in libero ut sapien semper vehicula et nec dolor.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-5x fa-users text-primary sr-icons"></i>
-                        <h3>Interactive Web Design</h3>
+                        <h3>Interactive Design</h3>
+                        <p>Aliquam in libero ut sapien semper vehicula et nec dolor.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-5x fa-mobile text-primary sr-icons"></i>
+                        <h3>Responsive Web Design</h3>
                         <p>Aliquam in libero ut sapien semper vehicula et nec dolor.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-5x fa-map-signs text-primary sr-icons"></i>
-                        <h3>Signage Design</h3>
+                        <h3>Sign Crafting</h3>
                         <p>Aliquam in libero ut sapien semper vehicula et nec dolor.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
+    
+    
+    <!-- Portfolio / gallery-->
+    <section id="portfolio" class="gallery">
+      <div class="container clearfix">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-12 col-lg-8">
+                <h2 class="heading">Portfolio</h2>
+              </div>
+            </div>
 
-
-
-
-<!-- Button trigger modal
-<img src="img/featured_projects/featured_projects.jpg"  alt="Car Nation" data-toggle="modal" data-target="#myModal">
-
-Modal
-<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="myModal">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        <img src="photos/dimentional-1-thumbnail.jpg" alt="City 1" class="img-responsive">
-        <img src="photos/dimentional-1-thumbnail.jpg" alt="City 1" class="img-responsive">
-        <img src="photos/dimentional-1-thumbnail.jpg" alt="City 1" class="img-responsive">
-      </div>
-    </div>
-  </div>
-</div>
- -->
-
-
-
-<!-- Portfolio Section -->
-<section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-        <h2 class="heading">Portfolio</h2>
-        
-      <!--         <div class="filter">
-        <div align="center">
-          <a href="#" class="sortLink selected" data-category="all">All</a>
-          <a href="#" class="sortLink" data-category="cabinet">Cabinets</a>
-          <a href="#" class="sortLink" data-category="carved">Carved</a>
-          <a href="#" class="sortLink" data-category="channels">Channels</a>
-          <a href="#" class="sortLink" data-category="dimentional">Dimentional</a>
-          <a href="#" class="sortLink" data-category="goldleaf">Gold-Leaf</a>
-          <a href="#" class="sortLink" data-category="misc">Misc</a>
-          <a href="#" class="sortLink" data-category="monument">Monuments</a>
-          <a href="#" class="sortLink" data-category="pylon">Pylons</a>
-          <a href="#" class="sortLink" data-category="prints">Wide-Format Prints</a>
-          <a href="#" class="sortLink" data-category="vinyl">Vinyl</a>
-          <div class="clear_floats"></div>
-        </div>
-      </div> -->
-      
-            <div class="row no-gutter popup-gallery gallery" id="gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/bacon_roses.jpg" class="portfolio-box">
+                <div class="col-lg-4 col-sm-6" style="padding: 0; margin: 0;">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/bacon_roses.jpg"  title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Bacon Roses" data-footer="Some footer information" class="portfolio-box" data-width="200vd">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/bacon_roses.jpg" class="img-responsive" alt="Bacon Roses">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Edible
+                                </div>
                                 <div class="project-name">
                                     Bacon Roses
                                 </div>
@@ -239,85 +199,99 @@ Modal
                         </div>
                     </a>
                            
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/brewtus_portrait.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/brewtus_portrait.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/brewtus_portrait.jpg" class="img-responsive" alt="Brewtus Portrait">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Graphite Portrait
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Brewtus
                                 </div>
                             </div>
                         </div>
                     </a>
                     
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/business_cards.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/business_cards.jpg"  title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/business_cards.jpg" class="img-responsive" alt="Business Cards">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Interactive Print
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Business Cards
                                 </div>
                             </div>
                         </div>
                     </a>
 
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/chase_scene.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/chase_scene.jpg"  title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/chase_scene.jpg" class="img-responsive" alt="Chase Scene Print">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Lithography
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Chase Scene
                                 </div>
                             </div>
                         </div>
                     </a>
                     
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/chase_multiples.jpg" class="portfolio-box">
-                        <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/chase_multiples.jpg" class="img-responsive" alt="Chase Scene Multiples">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/honey_bee.jpg"  title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
+                        <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/honey_bee.jpg" class="img-responsive" alt="Honey Bee">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Photography
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Honey Bee
                                 </div>
                             </div>
                         </div>
                     </a>
                     
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/creator.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/creator.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/creator.jpg" class="img-responsive" alt="Creator Print">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Wood-Cut Print
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Creator
                                 </div>
                             </div>
                         </div>
                     </a>
                     
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/cupid.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/cupid.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/cupid.jpg" class="img-responsive" alt="Cupid Intaglio">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Intaglio
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Cupid
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/bella.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
+                        <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/bella.jpg" class="img-responsive" alt="Bella">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Graphite Portrait
+                                </div>
+                                <div class="project-name">
+                                    Bella
                                 </div>
                             </div>
                         </div>
@@ -325,64 +299,64 @@ Modal
                 </div>
 
 
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/barn.jpg" class="portfolio-box">
+                <div class="col-lg-4 col-sm-6" style="padding: 0; margin: 0;">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/barn.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/barn.jpg" class="img-responsive" alt="Barn">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Photography
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Barn
                                 </div>
                             </div>
                         </div>
                     </a>
                            
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/eagle.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/eagle.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/eagle.jpg" class="img-responsive" alt="Eagle">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Wood-Burn
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Eagle Bar Top
                                 </div>
                             </div>
                         </div>
                     </a>
                     
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/evolution.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/evolution.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/evolution.jpg" class="img-responsive" alt="Evolution Print">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Linolium Print
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Evolution
                                 </div>
                             </div>
                         </div>
                     </a>
 
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/fish.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/fish.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/fish.jpg" class="img-responsive" alt="Fish Painting">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Watercolor
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Arowana
                                 </div>
                             </div>
                         </div>
                     </a>
                            
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/ice.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/ice.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/ice.jpg" class="img-responsive" alt="Ice Photo">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -396,7 +370,7 @@ Modal
                         </div>
                     </a>
                     
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/the_stalk.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/the_stalk.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/the_stalk.jpg" class="img-responsive" alt="The Stalk Print">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -410,7 +384,7 @@ Modal
                         </div>
                     </a>
 
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/jackchristmascard.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/jackchristmascard.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/jackchristmascard.jpg" class="img-responsive" alt="Christmas Card">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -424,7 +398,7 @@ Modal
                         </div>
                     </a>
                            
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/jelly.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/jelly.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/jelly.jpg" class="img-responsive" alt="Jelly Fish Painting">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -438,7 +412,7 @@ Modal
                         </div>
                     </a>
                     
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/koi.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/koi.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/koi.jpg" class="img-responsive" alt="Koi">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -452,7 +426,7 @@ Modal
                         </div>
                     </a>
                            
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/workofbark.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/workofbark.jpg"   title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/workofbark.jpg" class="img-responsive" alt="Work of Bark Painting">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -469,8 +443,8 @@ Modal
 
 
 
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/owl_jar.jpg" class="portfolio-box">
+                <div class="col-lg-4 col-sm-6" style="padding: 0; margin: 0;">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/owl_jar.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/owl_jar.jpg" class="img-responsive" alt="Owl Jar">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -484,7 +458,7 @@ Modal
                         </div>
                     </a>
                            
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/serpent.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/serpent.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/serpent.jpg" class="img-responsive" alt="Serpent">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -498,7 +472,7 @@ Modal
                         </div>
                     </a>
                     
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/shrooms.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/shrooms.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/shrooms.jpg" class="img-responsive" alt="Shrooms Print">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -512,7 +486,7 @@ Modal
                         </div>
                     </a>
 
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/sugar_skulls.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/sugar_skulls.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/sugar_skulls.jpg" class="img-responsive" alt="Sugar Skulls">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -526,7 +500,7 @@ Modal
                         </div>
                     </a>
                            
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/sunandmoon.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/sunandmoon.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/sunandmoon.jpg" class="img-responsive" alt="Sun and Moon">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -540,7 +514,7 @@ Modal
                         </div>
                     </a>
                     
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/tiki_vinyl.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/tiki_vinyl.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/tiki_vinyl.jpg" class="img-responsive" alt="Tiki Vinyl">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -554,7 +528,7 @@ Modal
                         </div>
                     </a>
 
-                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/white_rabbit.jpg" class="portfolio-box">
+                    <a href="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/white_rabbit.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information" class="portfolio-box">
                         <img src="http://webdesign.digitalmediauconn.org/spring16/smp13010/projects/portfolio/portfolio_img/white_rabbit.jpg" class="img-responsive" alt="White Rabbit Print">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -570,27 +544,36 @@ Modal
                 
                 
             </div>
+          </div>
         </div>
+      </div>
     </section>
-    
-    
+    <!-- Portfolio / gallery end-->
+
+
+
    <!-- Resume Section -->
     <section class="no-padding" id="resume">
         <div class="container-fluid">
-        	<div class="row">
-       		  <h2 class="heading col-sm-9">Resume</h2>
-              	<div class=" col-sm-3">
-              		<a href="doc/2016-resume.pdf">
-                		<button type="button" class="btn btn-sm btn-default">Expand PDF</button>
-                	</a>
+            <div class="row">
+              <h2 class="heading col-sm-9">Resume</h2>
+                <div class=" col-sm-3">
+                    <a href="doc/2016-resume.pdf">
+                        <button type="button" class="btn btn-sm btn-default">Download PDF</button>
+                    </a>
                 </div>
              </div>
+             <!--
+             <div id="resume-content" class="row">
+                <div class="col-sm-9">
+                </div>
+             </div>
+             -->
            <object width="100%" height="800" data="doc/2016-resume.pdf"></object>
-    	</div>
+        </div>
     </section>
-    
-    
-    
+
+
 
 <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
@@ -616,7 +599,6 @@ Modal
     </section>
 
 
-
     <!-- Footer -->
     <footer>
         <div class="container text-center">
@@ -632,26 +614,20 @@ Modal
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+
+   
+        <!-- Lightbox-->
+    <script src="js/ekko-lightbox.js"> </script>
 
 
- <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="inc/fancybox/jquery.fancybox.js"></script>
-  <script src="inc/gallery.js"></script>
-  
-  <script>     $('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').focus()
-}); </script>
-    
-
-
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
-    
-    
 
-
+        <!-- main script-->
+    <script src="js/front.js"></script>
 
 </body>
 

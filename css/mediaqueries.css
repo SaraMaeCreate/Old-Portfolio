@@ -4,16 +4,14 @@
 
 @media screen and (max-width: 367px) {
 	
-.btn-circle {
-	margin-top: 110%;
-}	
 
 
-#services h2 {
+
+#skills h2 {
 	font-size: 24px;
 }
 
-#services h3 {
+#skills h3 {
 	font-size: 18px;
 }
 
@@ -25,11 +23,11 @@
 
 
 
-#services h2 {
+#skills h2 {
 	font-size: 24px;
 }
 
-#services h3 {
+#skills h3 {
 	font-size: 18px;
 }
 	
@@ -42,9 +40,7 @@
 /*medium*/
 @media screen and (min-width: 801px) and (max-width: 1199px) {
 
-.btn-circle {
-	margin-top: 64%;
-}
+
 
 .parallax2 {
     height: 170%;
@@ -59,9 +55,7 @@
 
 @media screen and (min-width: 1200px) {
 
-.btn-circle {
-	margin-top: 70%;
-}
+
 
 
 .parallax2 {

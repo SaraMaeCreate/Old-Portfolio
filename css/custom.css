@@ -11,8 +11,12 @@ html {
 	background: none;	
 }
 
+header img {
+	margin-top: 14%;
+}
+
 .btn-circle {
-	margin-top: 90%;
+	
 	border: #FFFFFF solid 1px;
 }
 
@@ -33,7 +37,7 @@ html {
   background: #02CC00;
 }
 
-#about, #services, #portfolio, #resume {
+#about, #skills, #portfolio, #resume {
 	padding-left: 5%;
 	padding-right: 5%;
 	margin-bottom: 6%;
@@ -41,18 +45,18 @@ html {
 	padding-top: 10%;
 }
 
-#services {
+#skills {
 	text-shadow: 2px 2px 3px #000000;
 }
 
 
 
-#services p {
+#skills p {
 	text-align: center;
 	font-size: 18px;
 }
 
-#services h2 {
+#skills h2 {
 	margin-left: 2%;
 }
 
@@ -68,7 +72,13 @@ html {
 	margin: 3%;
 }
 
+#logo{
+	visibility: hidden;
+}
 
+.top-nav-collapse #logo {
+	visibility: visible;
+}
 
 
 
@@ -122,6 +132,11 @@ body, html {
 	background: rgba(2, 204, 0, 0.8);
 }
 
+.portfolio-box {
+	 margin: 0px 0px 4px 4px;
+	 padding: 0;
+}
+
 a:focus {
 	color: #02CC00;
 }
@@ -135,4 +150,12 @@ a:focus {
 	float: right;
 	margin-top: 10%;
 }
+
+
+.modal {
+	color: gray;
+}
+
+
+
 

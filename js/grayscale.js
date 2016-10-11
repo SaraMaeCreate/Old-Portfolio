@@ -4,17 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-
-
-
-
-// Custom js
-
-
-
-
-
-
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
     if ($(".navbar").offset().top > 50) {
