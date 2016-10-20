@@ -45,6 +45,23 @@ header img {
 	padding-top: 10%;
 }
 
+
+#reel-btn {
+	color: white;
+	border-radius: 0;
+	border: solid gray 2px;
+	background-color: black;
+	margin-top: 10px;
+}
+
+#reel-btn:hover {
+	border-color: #02CC00;
+}
+
+.modal-dialog {
+	width: auto; max-width: 720px !important;
+}
+
 #skills {
 	text-shadow: 2px 2px 3px #000000;
 }
@@ -147,7 +164,6 @@ a:focus {
 }
 
 #resume button {
-	float: right;
 	margin-top: 10%;
 }
 
