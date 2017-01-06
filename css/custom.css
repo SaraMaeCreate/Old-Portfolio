@@ -46,7 +46,7 @@ header img {
 }
 
 
-#reel-btn {
+.btn-lg {
 	color: white;
 	border-radius: 0;
 	border: solid gray 2px;
@@ -54,18 +54,22 @@ header img {
 	margin-top: 10px;
 }
 
-#reel-btn:hover {
+.btn-lg:hover {
 	border-color: #02CC00;
 }
 
 .modal-dialog {
-	width: auto; max-width: 720px !important;
+	max-width: 840px !important;
+}
+
+.modal img
+{
+	width: 100%;
 }
 
 #skills {
 	text-shadow: 2px 2px 3px #000000;
 }
-
 
 
 #skills p {
@@ -161,10 +165,6 @@ a:focus {
 
 #resume h2 {
 	margin-bottom: 1%;
-}
-
-#resume button {
-	margin-top: 10%;
 }
 
 

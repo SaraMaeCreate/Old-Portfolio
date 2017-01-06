@@ -4,7 +4,9 @@
 
 @media screen and (max-width: 367px) {
 	
-
+.portfolio-box {
+	width: inherit;
+}
 
 
 #skills h2 {
@@ -21,7 +23,9 @@
 
 @media screen and (min-width: 368px) and (max-width: 800px) {
 
-
+.portfolio-box {
+	width: inherit;
+}
 
 #skills h2 {
 	font-size: 24px;
