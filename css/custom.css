@@ -1,5 +1,9 @@
 /* your styles go here */
 
+.green {
+	color: #02CC00;
+}
+
 html {
   box-sizing: border-box;
   height: 100%; }
@@ -97,8 +101,9 @@ h2.heading:after {
 	margin: 3%;
 }
 
-#logo{
+#logo {
 	visibility: hidden;
+	margin-right: -100px;
 }
 
 .top-nav-collapse #logo {
@@ -110,6 +115,7 @@ h2.heading:after {
 body, html {
     height: 100%;
 }
+
 
 .parallax {
     /* The image used */
